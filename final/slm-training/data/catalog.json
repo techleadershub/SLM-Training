@@ -1,0 +1,44 @@
+{
+  "_note": "Demo catalog for the Smart TV assistant. Titles are real, but platform availability is illustrative, not real-world.",
+  "platforms": ["Netflix", "Prime Video", "Disney+ Hotstar", "JioCinema"],
+  "items": [
+    {"id": "m001", "title": "Avatar", "type": "movie", "year": 2009, "language": "English", "genres": ["Sci-Fi", "Action", "Adventure"], "cast": ["Sam Worthington", "Zoe Saldana"], "platforms": ["Disney+ Hotstar"], "family_friendly": true},
+    {"id": "m002", "title": "Avatar: The Way of Water", "type": "movie", "year": 2022, "language": "English", "genres": ["Sci-Fi", "Action", "Adventure"], "cast": ["Sam Worthington", "Zoe Saldana"], "platforms": ["Disney+ Hotstar"], "family_friendly": true},
+
+    {"id": "m010", "title": "The Killer", "type": "movie", "year": 2023, "language": "English", "genres": ["Thriller", "Crime"], "cast": ["Michael Fassbender"], "platforms": ["Netflix"], "family_friendly": false},
+    {"id": "m011", "title": "Gone Girl", "type": "movie", "year": 2014, "language": "English", "genres": ["Thriller", "Mystery"], "cast": ["Ben Affleck", "Rosamund Pike"], "platforms": ["Prime Video"], "family_friendly": false},
+    {"id": "m012", "title": "Prisoners", "type": "movie", "year": 2013, "language": "English", "genres": ["Thriller", "Crime"], "cast": ["Hugh Jackman", "Jake Gyllenhaal"], "platforms": ["Prime Video"], "family_friendly": false},
+
+    {"id": "m020", "title": "War", "type": "movie", "year": 2019, "language": "Hindi", "genres": ["Action", "Thriller"], "cast": ["Hrithik Roshan", "Tiger Shroff"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m021", "title": "Sooryavanshi", "type": "movie", "year": 2021, "language": "Hindi", "genres": ["Action"], "cast": ["Akshay Kumar", "Katrina Kaif"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "m022", "title": "Pathaan", "type": "movie", "year": 2023, "language": "Hindi", "genres": ["Action", "Thriller"], "cast": ["Shah Rukh Khan", "Deepika Padukone"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m023", "title": "Jawan", "type": "movie", "year": 2023, "language": "Hindi", "genres": ["Action", "Thriller"], "cast": ["Shah Rukh Khan", "Nayanthara"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "m024", "title": "Tiger 3", "type": "movie", "year": 2023, "language": "Hindi", "genres": ["Action", "Thriller"], "cast": ["Salman Khan", "Katrina Kaif"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m025", "title": "Fighter", "type": "movie", "year": 2024, "language": "Hindi", "genres": ["Action"], "cast": ["Hrithik Roshan", "Deepika Padukone"], "platforms": ["Netflix"], "family_friendly": true},
+
+    {"id": "m030", "title": "Top Gun: Maverick", "type": "movie", "year": 2022, "language": "English", "genres": ["Action", "Drama"], "cast": ["Tom Cruise", "Miles Teller"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m031", "title": "Mission: Impossible – Dead Reckoning Part One", "type": "movie", "year": 2023, "language": "English", "genres": ["Action", "Spy"], "cast": ["Tom Cruise", "Hayley Atwell"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m032", "title": "Mission: Impossible – The Final Reckoning", "type": "movie", "year": 2025, "language": "English", "genres": ["Action", "Spy"], "cast": ["Tom Cruise", "Hayley Atwell"], "platforms": ["JioCinema"], "family_friendly": true},
+    {"id": "m033", "title": "Edge of Tomorrow", "type": "movie", "year": 2014, "language": "English", "genres": ["Action", "Sci-Fi"], "cast": ["Tom Cruise", "Emily Blunt"], "platforms": ["JioCinema"], "family_friendly": true},
+    {"id": "m034", "title": "John Wick: Chapter 4", "type": "movie", "year": 2023, "language": "English", "genres": ["Action", "Crime"], "cast": ["Keanu Reeves"], "platforms": ["Prime Video"], "family_friendly": false},
+    {"id": "m035", "title": "Mad Max: Fury Road", "type": "movie", "year": 2015, "language": "English", "genres": ["Action", "Sci-Fi"], "cast": ["Tom Hardy", "Charlize Theron"], "platforms": ["JioCinema"], "family_friendly": false},
+
+    {"id": "m040", "title": "Hera Pheri", "type": "movie", "year": 2000, "language": "Hindi", "genres": ["Comedy"], "cast": ["Akshay Kumar", "Suniel Shetty", "Paresh Rawal"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m041", "title": "3 Idiots", "type": "movie", "year": 2009, "language": "Hindi", "genres": ["Comedy", "Drama"], "cast": ["Aamir Khan", "Kareena Kapoor"], "platforms": ["Prime Video"], "family_friendly": true},
+    {"id": "m042", "title": "Chhichhore", "type": "movie", "year": 2019, "language": "Hindi", "genres": ["Comedy", "Drama"], "cast": ["Sushant Singh Rajput", "Shraddha Kapoor"], "platforms": ["Disney+ Hotstar"], "family_friendly": true},
+    {"id": "m043", "title": "Dream Girl 2", "type": "movie", "year": 2023, "language": "Hindi", "genres": ["Comedy"], "cast": ["Ayushmann Khurrana", "Ananya Panday"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "m044", "title": "Delhi Belly", "type": "movie", "year": 2011, "language": "Hindi", "genres": ["Comedy", "Crime"], "cast": ["Imran Khan", "Vir Das"], "platforms": ["Netflix"], "family_friendly": false},
+
+    {"id": "m050", "title": "Vikram", "type": "movie", "year": 2022, "language": "Tamil", "genres": ["Action", "Thriller"], "cast": ["Kamal Haasan", "Vijay Sethupathi"], "platforms": ["Disney+ Hotstar"], "family_friendly": false},
+    {"id": "m051", "title": "Manjummel Boys", "type": "movie", "year": 2024, "language": "Malayalam", "genres": ["Thriller", "Drama"], "cast": ["Soubin Shahir", "Sreenath Bhasi"], "platforms": ["Disney+ Hotstar"], "family_friendly": true},
+
+    {"id": "s001", "title": "Crash Landing on You", "type": "series", "year": 2019, "language": "Korean", "genres": ["Drama", "Romance"], "cast": ["Hyun Bin", "Son Ye-jin"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "s002", "title": "Vincenzo", "type": "series", "year": 2021, "language": "Korean", "genres": ["Drama", "Crime", "Comedy"], "cast": ["Song Joong-ki", "Jeon Yeo-been"], "platforms": ["Netflix"], "family_friendly": false},
+    {"id": "s003", "title": "Business Proposal", "type": "series", "year": 2022, "language": "Korean", "genres": ["Drama", "Romance", "Comedy"], "cast": ["Ahn Hyo-seop", "Kim Se-jeong"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "s004", "title": "Moving", "type": "series", "year": 2023, "language": "Korean", "genres": ["Drama", "Action", "Fantasy"], "cast": ["Ryu Seung-ryong", "Han Hyo-joo"], "platforms": ["Disney+ Hotstar"], "family_friendly": false},
+    {"id": "s005", "title": "Queen of Tears", "type": "series", "year": 2024, "language": "Korean", "genres": ["Drama", "Romance"], "cast": ["Kim Soo-hyun", "Kim Ji-won"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "s006", "title": "Hometown Cha-Cha-Cha", "type": "series", "year": 2021, "language": "Korean", "genres": ["Drama", "Romance", "Comedy"], "cast": ["Shin Min-a", "Kim Seon-ho"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "s007", "title": "Twenty-Five Twenty-One", "type": "series", "year": 2022, "language": "Korean", "genres": ["Drama", "Romance"], "cast": ["Kim Tae-ri", "Nam Joo-hyuk"], "platforms": ["Netflix"], "family_friendly": true},
+    {"id": "s008", "title": "Our Blues", "type": "series", "year": 2022, "language": "Korean", "genres": ["Drama"], "cast": ["Lee Byung-hun", "Shin Min-a"], "platforms": ["Prime Video"], "family_friendly": true}
+  ]
+}

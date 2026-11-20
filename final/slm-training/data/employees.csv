@@ -1,0 +1,21 @@
+employee_id,name,department,role,performance_rating,email,phone,manager,join_date
+E1001,John,Sales,Sales Executive,62,john@abc-company.example,+91-90000-10001,Priya Sharma,2021-03-15
+E1002,Mary,Customer Support,Support Associate,64,mary@abc-company.example,+91-90000-10002,Arjun Nair,2022-07-01
+E1003,Steve,Engineering,Software Engineer,66,steve@abc-company.example,+91-90000-10003,Kavya Reddy,2020-11-09
+E1004,Ananya Iyer,Engineering,Senior Software Engineer,91,ananya.iyer@abc-company.example,+91-90000-10004,Kavya Reddy,2019-06-17
+E1005,Rahul Verma,Engineering,Software Engineer,78,rahul.verma@abc-company.example,+91-90000-10005,Kavya Reddy,2022-01-10
+E1006,Sneha Patil,Engineering,QA Engineer,74,sneha.patil@abc-company.example,+91-90000-10006,Kavya Reddy,2023-02-20
+E1007,Karthik Menon,Engineering,DevOps Engineer,85,karthik.menon@abc-company.example,+91-90000-10007,Kavya Reddy,2020-08-03
+E1008,Fatima Khan,Sales,Account Manager,88,fatima.khan@abc-company.example,+91-90000-10008,Priya Sharma,2018-12-01
+E1009,Vikram Singh,Sales,Sales Executive,71,vikram.singh@abc-company.example,+91-90000-10009,Priya Sharma,2023-05-15
+E1010,Meera Joshi,Sales,Sales Executive,76,meera.joshi@abc-company.example,+91-90000-10010,Priya Sharma,2021-09-27
+E1011,David Thomas,Customer Support,Support Lead,83,david.thomas@abc-company.example,+91-90000-10011,Arjun Nair,2019-04-22
+E1012,Lakshmi Rao,Customer Support,Support Associate,72,lakshmi.rao@abc-company.example,+91-90000-10012,Arjun Nair,2022-10-03
+E1013,Imran Sheikh,Customer Support,Support Associate,69,imran.sheikh@abc-company.example,+91-90000-10013,Arjun Nair,2023-08-14
+E1014,Pooja Desai,Marketing,Marketing Manager,87,pooja.desai@abc-company.example,+91-90000-10014,Nikhil Gupta,2018-03-05
+E1015,Arun Kumar,Marketing,Content Specialist,73,arun.kumar@abc-company.example,+91-90000-10015,Nikhil Gupta,2022-06-13
+E1016,Divya Pillai,Marketing,Digital Marketer,80,divya.pillai@abc-company.example,+91-90000-10016,Nikhil Gupta,2021-01-18
+E1017,Rohan Mehta,Finance,Financial Analyst,82,rohan.mehta@abc-company.example,+91-90000-10017,Sunita Bose,2020-02-24
+E1018,Neha Kapoor,Finance,Accountant,77,neha.kapoor@abc-company.example,+91-90000-10018,Sunita Bose,2021-11-29
+E1019,Sanjay Das,HR,HR Executive,79,sanjay.das@abc-company.example,+91-90000-10019,Sunita Bose,2022-04-11
+E1020,Asha Nambiar,HR,HR Business Partner,86,asha.nambiar@abc-company.example,+91-90000-10020,Sunita Bose,2019-09-02

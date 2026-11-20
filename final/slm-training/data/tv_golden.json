@@ -1,0 +1,725 @@
+[
+ {
+  "text": "please switch off the television",
+  "intent": "power",
+  "slots": {
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "could you turn the tv on",
+  "intent": "power",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "set the volume to 35",
+  "intent": "set_volume",
+  "slots": {
+   "level": 35
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "make the volume sixty",
+  "intent": "set_volume",
+  "slots": {
+   "level": 60
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "turn the sound up a little",
+  "intent": "volume_up",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "turn the sound down",
+  "intent": "volume_down",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "raise the volume by 10",
+  "intent": "volume_up",
+  "slots": {
+   "amount": 10
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "can you mute the tv",
+  "intent": "mute",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "bring the sound back please",
+  "intent": "mute",
+  "slots": {
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "go to channel 12",
+  "intent": "set_channel",
+  "slots": {
+   "channel": 12
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "put on star sports",
+  "intent": "set_channel",
+  "slots": {
+   "channel": "star sports"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "take me to zee cinema",
+  "intent": "set_channel",
+  "slots": {
+   "channel": "zee cinema"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "open youtube",
+  "intent": "launch_app",
+  "slots": {
+   "app": "youtube"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "launch prime video",
+  "intent": "launch_app",
+  "slots": {
+   "app": "prime video"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "start hotstar please",
+  "intent": "launch_app",
+  "slots": {
+   "app": "hotstar"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "switch to hdmi 2",
+  "intent": "set_input",
+  "slots": {
+   "input": "hdmi 2"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "change the input to av",
+  "intent": "set_input",
+  "slots": {
+   "input": "av"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "pause the movie please",
+  "intent": "playback",
+  "slots": {
+   "action": "pause"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "resume",
+  "intent": "playback",
+  "slots": {
+   "action": "play"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "skip to the next episode",
+  "intent": "playback",
+  "slots": {
+   "action": "next"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "play something funny on netflix",
+  "intent": "search_content",
+  "slots": {
+   "query": "funny",
+   "app": "netflix"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "I want to watch a thriller",
+  "intent": "search_content",
+  "slots": {
+   "query": "thriller"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "find cosmos explained",
+  "intent": "search_content",
+  "slots": {
+   "query": "cosmos explained"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "turn the subtitles on",
+  "intent": "subtitles",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "subtitles off please",
+  "intent": "subtitles",
+  "slots": {
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "set a sleep timer for 20 minutes",
+  "intent": "sleep_timer",
+  "slots": {
+   "minutes": 20
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "cancel the sleep timer please",
+  "intent": "sleep_timer",
+  "slots": {
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "open picture settings",
+  "intent": "settings",
+  "slots": {
+   "section": "picture"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "please do a factory reset on this tv",
+  "intent": "factory_reset",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "delete every recording",
+  "intent": "delete_recordings",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "I would like to rent mumbai nights",
+  "intent": "rent_movie",
+  "slots": {
+   "title": "mumbai nights",
+   "mode": "rent"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "buy river of dreams for me",
+  "intent": "rent_movie",
+  "slots": {
+   "title": "river of dreams",
+   "mode": "buy"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "take me to the adult zone",
+  "intent": "adult_content",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "could you tell me the time",
+  "intent": "ask_time",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "which channel am I on",
+  "intent": "ask_status",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "undo what you just did",
+  "intent": "undo",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "what are the things you can do",
+  "intent": "help",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "yes please go ahead",
+  "intent": "yes",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "no I changed my mind",
+  "intent": "no",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "forget about it",
+  "intent": "cancel",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "I will go for the second",
+  "intent": "choose",
+  "slots": {
+   "index": 2
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "turn the tv off in half an hour",
+  "intent": "sleep_timer",
+  "slots": {
+   "minutes": 30
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "go to the news channel",
+  "intent": "set_channel",
+  "slots": {
+   "channel": "news"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "I want to watch office hours on prime video",
+  "intent": "search_content",
+  "slots": {
+   "query": "office hours",
+   "app": "prime video"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "increase the volume by twenty",
+  "intent": "volume_up",
+  "slots": {
+   "amount": 20
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "set volume to seventy five",
+  "intent": "set_volume",
+  "slots": {
+   "level": 75
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "turn the volum up by ten",
+  "intent": "volume_up",
+  "slots": {
+   "amount": 10
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "chanel 9 please",
+  "intent": "set_channel",
+  "slots": {
+   "channel": 9
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "open net flix",
+  "intent": "launch_app",
+  "slots": {
+   "app": "netflix"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "put on you tube",
+  "intent": "launch_app",
+  "slots": {
+   "app": "youtube"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "switch to h d m i 1",
+  "intent": "set_input",
+  "slots": {
+   "input": "hdmi 1"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "moot the tv",
+  "intent": "mute",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "sub titles on",
+  "intent": "subtitles",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "paws the video",
+  "intent": "playback",
+  "slots": {
+   "action": "pause"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "set sleep time for 30 minits",
+  "intent": "sleep_timer",
+  "slots": {
+   "minutes": 30
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "tern on the tv",
+  "intent": "power",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "swich to hdmi to",
+  "intent": "set_input",
+  "slots": {
+   "input": "hdmi 2"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "open hot star",
+  "intent": "launch_app",
+  "slots": {
+   "app": "hotstar"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "lauder please",
+  "intent": "volume_up",
+  "slots": {},
+  "kind": "noisy"
+ },
+ {
+  "text": "play office hours on prime vedio",
+  "intent": "search_content",
+  "slots": {
+   "query": "office hours",
+   "app": "prime video"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "volume kam kar do",
+  "intent": "volume_down",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "awaaz 40 kar do",
+  "intent": "set_volume",
+  "slots": {
+   "level": 40
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "tv chalu kar do",
+  "intent": "power",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "tv band kar do please",
+  "intent": "power",
+  "slots": {
+   "state": "off"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "channel 5 lagao",
+  "intent": "set_channel",
+  "slots": {
+   "channel": 5
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "netflix kholo",
+  "intent": "launch_app",
+  "slots": {
+   "app": "netflix"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "hdmi 1 pe lagao",
+  "intent": "set_input",
+  "slots": {
+   "input": "hdmi 1"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "pause kar do",
+  "intent": "playback",
+  "slots": {
+   "action": "pause"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "agla episode chalao",
+  "intent": "playback",
+  "slots": {
+   "action": "next"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "koi comedy lagao",
+  "intent": "search_content",
+  "slots": {
+   "query": "comedy"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "subtitles chalu karo",
+  "intent": "subtitles",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "20 minute baad tv band karo",
+  "intent": "sleep_timer",
+  "slots": {
+   "minutes": 20
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "haan kar do",
+  "intent": "yes",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "rehne do",
+  "intent": "cancel",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "time kya ho gaya",
+  "intent": "ask_time",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "awaaz thodi tez karo",
+  "intent": "volume_up",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "louder",
+  "intent": "volume_up",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "bit lower please",
+  "intent": "volume_down",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "30",
+  "intent": "other",
+  "slots": {
+   "number": 30
+  },
+  "kind": "short"
+ },
+ {
+  "text": "make it 55",
+  "intent": "other",
+  "slots": {
+   "number": 55
+  },
+  "kind": "short"
+ },
+ {
+  "text": "no, 40",
+  "intent": "other",
+  "slots": {
+   "number": 40
+  },
+  "kind": "short"
+ },
+ {
+  "text": "the first one",
+  "intent": "choose",
+  "slots": {
+   "index": 1
+  },
+  "kind": "short"
+ },
+ {
+  "text": "number 3",
+  "intent": "choose",
+  "slots": {
+   "index": 3
+  },
+  "kind": "short"
+ },
+ {
+  "text": "okay",
+  "intent": "yes",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "nope",
+  "intent": "no",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "never mind",
+  "intent": "cancel",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "mute",
+  "intent": "mute",
+  "slots": {
+   "state": "on"
+  },
+  "kind": "short"
+ },
+ {
+  "text": "pause",
+  "intent": "playback",
+  "slots": {
+   "action": "pause"
+  },
+  "kind": "short"
+ },
+ {
+  "text": "what is the score of the match",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "order food from the app",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "what is the weather tomorrow",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "turn on the bedroom light",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "set an alarm for seven",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "send a message to my brother",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "tell me about the moon",
+  "intent": "out_of_scope",
+  "slots": {},
+  "kind": "out_of_scope"
+ },
+ {
+  "text": "asdfgh",
+  "intent": "other",
+  "slots": {},
+  "kind": "not_understood"
+ },
+ {
+  "text": "that thing",
+  "intent": "other",
+  "slots": {},
+  "kind": "not_understood"
+ },
+ {
+  "text": "uh what",
+  "intent": "other",
+  "slots": {},
+  "kind": "not_understood"
+ }
+]

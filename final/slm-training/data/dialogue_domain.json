@@ -1,0 +1,24 @@
+{
+  "_note": "Domain data for the dialogue management demo (module 3). Prices, addresses and weather are mock values.",
+  "food_menu": {
+    "pizza": {"category": "pizza", "sizes": ["small", "medium", "large"], "prices": {"small": 199, "medium": 349, "large": 499}},
+    "veg burger": {"category": "burger", "price": 149},
+    "chicken burger": {"category": "burger", "price": 199},
+    "fries": {"category": "side", "price": 99}
+  },
+  "drinks": ["Coke", "Pepsi", "Lemonade", "Iced Tea", "Water"],
+  "max_quantity": 10,
+  "addresses": {
+    "home": "Home address on file",
+    "office": "Office address on file"
+  },
+  "devices": {
+    "AC": {"rooms": ["living room", "bedroom"], "temperature_range_c": [16, 30], "needs_temperature": true},
+    "lights": {"rooms": ["living room", "bedroom", "kitchen"], "needs_temperature": false},
+    "fan": {"rooms": ["living room", "bedroom"], "needs_temperature": false}
+  },
+  "weather": {
+    "today": {"temperature_c": 28, "condition": "Partly cloudy"}
+  },
+  "recent_release_min_year": 2023
+}

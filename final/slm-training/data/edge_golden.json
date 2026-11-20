@@ -1,0 +1,560 @@
+[
+ {
+  "text": "Please light up the study",
+  "intent": "set_light",
+  "slots": {
+   "room": "study",
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Turn the balcony light off",
+  "intent": "set_light",
+  "slots": {
+   "room": "balcony",
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "I want the living room lights on",
+  "intent": "set_light",
+  "slots": {
+   "room": "living room",
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Lights out in the bedroom",
+  "intent": "set_light",
+  "slots": {
+   "room": "bedroom",
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "The kitchen is dark, can you help",
+  "intent": "set_light",
+  "slots": {
+   "room": "kitchen",
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Switch the study light on",
+  "intent": "set_light",
+  "slots": {
+   "room": "study",
+   "state": "on"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Set bedroom AC at 23",
+  "intent": "set_ac",
+  "slots": {
+   "room": "bedroom",
+   "temp": 23
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Cool the study down to 21 degrees",
+  "intent": "set_ac",
+  "slots": {
+   "room": "study",
+   "temp": 21
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Living room air conditioner 25 please",
+  "intent": "set_ac",
+  "slots": {
+   "room": "living room",
+   "temp": 25
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "I am too hot, set the kitchen ac to 20",
+  "intent": "set_ac",
+  "slots": {
+   "room": "kitchen",
+   "temp": 20
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Set the bedroom ac",
+  "intent": "set_ac",
+  "slots": {
+   "room": "bedroom"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "It is boiling in here",
+  "intent": "set_ac",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "Raise the blinds in the living room",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "living room",
+   "state": "open"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Lower the bedroom blinds",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "bedroom",
+   "state": "closed"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Open up the balcony blinds",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "balcony",
+   "state": "open"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Close the study curtains",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "study",
+   "state": "closed"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Start movie night",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "movie night"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Good morning scene please",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "good morning"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Please run the away scene",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "away"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "I am leaving for the day",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "away"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Kitchen light off, thanks",
+  "intent": "set_light",
+  "slots": {
+   "room": "kitchen",
+   "state": "off"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Make the living room 24",
+  "intent": "set_ac",
+  "slots": {
+   "room": "living room",
+   "temp": 24
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Open the kitchen blinds please",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "kitchen",
+   "state": "open"
+  },
+  "kind": "clean"
+ },
+ {
+  "text": "Turn on the light",
+  "intent": "set_light",
+  "slots": {},
+  "kind": "clean"
+ },
+ {
+  "text": "tern on the livin room lite",
+  "intent": "set_light",
+  "slots": {
+   "room": "living room",
+   "state": "on"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "swich of the bed room light",
+  "intent": "set_light",
+  "slots": {
+   "room": "bedroom",
+   "state": "off"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "set the kitchin a c to 22",
+  "intent": "set_ac",
+  "slots": {
+   "room": "kitchen",
+   "temp": 22
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "clothes the study blends",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "study",
+   "state": "closed"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "open the balconi blends",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "balcony",
+   "state": "open"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "leaving room light on",
+  "intent": "set_light",
+  "slots": {
+   "room": "living room",
+   "state": "on"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "movie nite",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "movie night"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "set the livin room ac too 24",
+  "intent": "set_ac",
+  "slots": {
+   "room": "living room",
+   "temp": 24
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "turn of the kitchen light",
+  "intent": "set_light",
+  "slots": {
+   "room": "kitchen",
+   "state": "off"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "put the studdy light on",
+  "intent": "set_light",
+  "slots": {
+   "room": "study",
+   "state": "on"
+  },
+  "kind": "noisy"
+ },
+ {
+  "text": "bedroom ki light jalao",
+  "intent": "set_light",
+  "slots": {
+   "room": "bedroom",
+   "state": "on"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "kitchen ki lights band kar do",
+  "intent": "set_light",
+  "slots": {
+   "room": "kitchen",
+   "state": "off"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "study mein batti on kar do",
+  "intent": "set_light",
+  "slots": {
+   "room": "study",
+   "state": "on"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "living room ka ac 24 kar do",
+  "intent": "set_ac",
+  "slots": {
+   "room": "living room",
+   "temp": 24
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "balcony ke parde khol dijiye",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "balcony",
+   "state": "open"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "bedroom ke parde band kar do",
+  "intent": "set_blinds",
+  "slots": {
+   "room": "bedroom",
+   "state": "closed"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "movie night chalao",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "movie night"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "main kaam pe ja raha hoon",
+  "intent": "run_scene",
+  "slots": {
+   "scene": "away"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "haan theek hai",
+  "intent": "yes",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "nahi, abhi nahi",
+  "intent": "no",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "ye error E47 ka kya matlab hai",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "kal ka mausam batao",
+  "intent": "other",
+  "slots": {},
+  "kind": "hinglish"
+ },
+ {
+  "text": "kitchen ka light on kar do na",
+  "intent": "set_light",
+  "slots": {
+   "room": "kitchen",
+   "state": "on"
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "ac ko 22 pe kar do bedroom mein",
+  "intent": "set_ac",
+  "slots": {
+   "room": "bedroom",
+   "temp": 22
+  },
+  "kind": "hinglish"
+ },
+ {
+  "text": "the study",
+  "intent": "other",
+  "slots": {
+   "room": "study"
+  },
+  "kind": "short"
+ },
+ {
+  "text": "kitchen",
+  "intent": "other",
+  "slots": {
+   "room": "kitchen"
+  },
+  "kind": "short"
+ },
+ {
+  "text": "make it 23",
+  "intent": "other",
+  "slots": {
+   "temp": 23
+  },
+  "kind": "short"
+ },
+ {
+  "text": "24",
+  "intent": "other",
+  "slots": {
+   "temp": 24
+  },
+  "kind": "short"
+ },
+ {
+  "text": "yes do it",
+  "intent": "yes",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "no, not now",
+  "intent": "no",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "scrap that",
+  "intent": "cancel",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "okay go on",
+  "intent": "yes",
+  "slots": {},
+  "kind": "short"
+ },
+ {
+  "text": "who is the prime minister of India",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "sing me a song",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "what is the price of petrol",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "set an alarm for six",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "call my brother",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "translate hello into Tamil",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "turn up the volume",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "change the channel to the news",
+  "intent": "other",
+  "slots": {},
+  "kind": "out_of_domain"
+ },
+ {
+  "text": "what does CH38 mean",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "the washer shows E47, help",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "how do I drain the washing machine filter",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "what is the maximum load for delicates",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "how do I change the ac mode",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "my ac shows CH38",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "how do I reset the washer",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ },
+ {
+  "text": "which detergent is safe to use",
+  "intent": "ask_manual",
+  "slots": {},
+  "kind": "manual"
+ }
+]
